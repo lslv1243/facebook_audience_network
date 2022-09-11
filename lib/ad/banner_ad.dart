@@ -25,7 +25,7 @@ class BannerSize {
 }
 
 class BannerAdListener {
-  final void Function(int code, String message)? onError;
+  final void Function(int? code, String? message)? onError;
   final void Function()? onLoaded;
   final void Function()? onClicked;
   final void Function()? onLoggingImpression;

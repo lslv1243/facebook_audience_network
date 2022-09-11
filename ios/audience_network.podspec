@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'audience_network'
-  s.version          = '0.0.1'
+  s.version          = '0.0.5'
   s.summary          = 'Facebook Audience Network plugin for Flutter application'
   s.description      = <<-DESC
 Facebook Audience Network plugin for Flutter application
@@ -17,7 +17,7 @@ Facebook Audience Network plugin for Flutter application
   s.dependency 'Flutter'
   # s.dependency 'FBSDKCoreKit'
   # s.dependency 'FacebookSDK'
-  s.dependency 'FBAudienceNetwork', '~> 6.9.0'
+  s.dependency 'FBAudienceNetwork', '~> 6.11.2'
 
   s.static_framework = true
   s.swift_version = '4.0'

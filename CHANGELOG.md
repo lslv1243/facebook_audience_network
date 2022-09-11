@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Update dependencies and fix onError listener
+
 ## 0.0.4
 
 - Updated NativeAd and Banner listener interface for consistency
